@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Shadow and Text Shadow</title>
+  </head>
+  <style>
+    .container {
+      display: flex;
+    }
+    .card {
+      padding: 23px 12px;
+      margin: 23px 12px;
+      /* border: 2px solid black;*/
+      background-color: burlywood;
+
+      /* box-shadow: offset x offset y color;*/
+      /* box-shadow: offset x offset y blur radius color;*/
+      /* box-shadow: offset x offset y blur radius spread radiuscolor;*/
+      /* box-shadow: 6px 8px black;*/
+      /* box-shadow: -6px -8px black;*/
+      /*  box-shadow: 7px 5px 10px black;*/
+      /*  box-shadow: -7px -5px 10px black;*/
+      /* box-shadow: -7px -5px 10px 34px black;*/
+      box-shadow: inset 3px 5px black;
+    }
+    .card h1 {
+      /*text-shadow:2px 1px rgb(250, 248, 248);*/
+      text-shadow: 2px 1px 2px rgb(250, 248, 248);
+    }
+  </style>
+  <body>
+    <div class="container">
+
+      <div class="card" id="car-1">
+        <h1>This is c++ course</h1>
+        <p>
+          I have started c++ course which does not mean that we will stop this
+          cousre.we will continue this course to completion. Lorem ipsum dolor
+          sit amet consectetur adipisicing elit. Ducimus enim repellendus
+          obcaecati praesentium sint rem blanditiis minus corporis doloremque
+          modi fugit neque, fuga impedit laudantium. Commodi, quas maiores sint
+          suscipit soluta facere eligendi accusantium?
+        </p>
+      </div>
+      <div class="card" id="car-2">
+        <h1>This is html course</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur iure
+          officiis quo. Eum et vitae repellat facere voluptate quis id libero
+          voluptatum, ad aperiam quibusdam fugiat! Est quisquam adipisci fugit
+          laborum ex, eveniet expedita?
+        </p>
+      </div>
+      <div class="card" id="car-3">
+        <h1>Card3</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
+          illum assumenda. Nisi possimus est quidem laborum at ipsa natus
+          voluptas, vero sed temporibus porro. Voluptatem magni voluptas illo,
+          atque incidunt facilis quasi tempore saepe!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

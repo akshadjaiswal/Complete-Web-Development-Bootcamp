@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS transition</title>
+    <style>
+      body {
+        background-color: black;
+      }
+      #box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        width: 200px;
+        background-color: rgb(239, 242, 242);
+        /* transition-property: background-color ;
+        transition-duration: 1s;
+        transition-timing-function:ease-in-out ;
+        transition-delay: 2s;*/
+
+        /*  transition shorthand property in one line*/
+        /*  transition: background-color 1s ease-in-out 2s;*/
+
+        transition: all 1s ease-in-out 0.3s;
+      }
+      #box:hover {
+        background-color: rgb(40, 146, 165);
+        height: 400px;
+        width: 400px;
+        border-radius: 100px;
+        font-size: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>This is Css Transistions tutorial</h3>
+    <div class="container">
+      <div id="box">Hey Akshad whatsapp!</div>
+    </div>
+  </body>
+</html>
