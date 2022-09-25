@@ -3,3 +3,10 @@
 * Here you can see all my code or topics i learned.
 * Pushing daily content here.
 * Stay tuned.
+
+## Languages i am learning-
+* HTML
+* CSS
+* Javascript
+* NodeJs
+* Express JS
