@@ -1,0 +1,14 @@
+{
+  "name": "akshadjaiswal",
+  "version": "1.0.0",
+  "description": "This is a package we created while studying exploring node js and express js",
+  "main": "app.js",
+  "scripts": {
+    "nodemon": "nodemon akshadjaiswal"
+  },
+  "author": "Akshad Jaiswal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
