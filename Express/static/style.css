@@ -5,14 +5,15 @@
 }
 
 body::before{
-    opacity: 0.8;
+    opacity: 0.9;
     content: "";
     width: 100%;
     height: 800px;
     top: 0px;
+    left: 0;
     z-index: -1;
     position: absolute;
-    background: url('/static/bg.jpg') no-repeat center center;
+    background: url('/static/bg.jpg') no-repeat center center/cover ;
 }
 
 nav {
@@ -52,4 +53,18 @@ textarea {
   outline: none;
   border: 2px solid black;
   border-radius: 6px;
+}
+
+.btn{
+  display: block;
+  margin: 4px auto;
+  padding: 5px 12px;
+  background: grey;
+  color:#f4f5b3 ;
+  font-weight: bold;
+  font-size: 15px;
+  border: 2px solid black;
+  border-radius: 2rem;
+  cursor: pointer;
+  outline: none;
 }
