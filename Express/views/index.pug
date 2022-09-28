@@ -5,12 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>#{title}</title>
+    style 
+       include ../static/style.css
   </head>
   <body>
-    <h1>This ia heading</h1>
-    <p>
-       | #{content}
-       | <!-- This is a plain html using pug here -->
-    </p>
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/">About</a></li>
+        <li><a href="/"> Contact us</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+
+        <h1>Get this gym membership at just 60$- Fill this form now</h1>
+        <!-- <p>
+            | #{content} 
+            This is a plain html using pug here
+        </p> -->
+        <form action="/"id="Contact"></form>
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+        <input type="text" name="age" id="name" placeholder="Enter your age">
+        <input type="text" name="gender" id="name" placeholder="Enter your gender">
+        <textarea name="address" id="address" cols="30" rows="10" placeholder="Enter your address"></textarea>
+        <textarea name="more" id="more" cols="30" rows="10" placeholder="More about you"></textarea>
+    </div>
   </body>
 </html>
