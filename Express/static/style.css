@@ -18,7 +18,7 @@ body::before{
 
 nav {
   background-color: cyan;
-  padding: 12px 12px;
+  padding: 6px ;
 }
 
 ul {
@@ -59,7 +59,7 @@ textarea {
   display: block;
   margin: 4px auto;
   padding: 5px 12px;
-  background: grey;
+  background: rgb(23, 2, 2);
   color:#f4f5b3 ;
   font-weight: bold;
   font-size: 15px;
