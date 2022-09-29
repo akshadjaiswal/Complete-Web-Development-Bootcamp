@@ -22,19 +22,20 @@
 }
 
 #navbar li a {
-    font-weight: bold;
+  font-weight: bold;
   text-decoration: none;
   color: white;
   padding: 11px 29px;
+  font-size: 25px;
 }
-#navbar li a:hover{
-   color:grey;
+#navbar li a:hover {
+  color: grey;
 }
 
 #introSection {
-    padding-bottom: 40px;
+  padding-bottom: 40px;
   font-family: "Noto Sans Mono", monospace;
-  font-size: 30px;
+  font-size: 50px;
   color: white;
   display: flex;
   flex-direction: column;
@@ -44,18 +45,42 @@
   height: 300px;
   background-color: black;
 }
-#introSection div.small{
-    font-size: 25px;padding: 5px;
+#introSection div.small {
+  font-size: 40px;
+  padding: 5px;
 }
 
 #sponsorsSection {
-    font-family: "Noto Sans Mono", monospace;
+  font-family: "Noto Sans Mono", monospace;
   height: 300px;
   background-color: azure;
 }
-#sponsorsSection h2{
-    text-align: center;
-    padding-top: 15px;
+#sponsorsSection h2 {
+  text-align: center;
+  padding-top: 5px;
+}
+#missionSection {
+  font-family: "Noto Sans Mono", monospace;
+  width: 67%;
+  height: 330px;
+  margin: auto;
+}
+#missionSection h2 {
+  text-align: center;
+  padding-top: 15px;
+}
+.card h3 {
+  text-align: center;
+  margin-top: 12px;
+  font-size: Arial , Helvetica, sans-serif ;
+}
+.card {
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 27%;
+  margin: 23px 20px;
+  height: 209px;
 }
 
 #footer {
