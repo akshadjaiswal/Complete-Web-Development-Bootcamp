@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&family=Roboto+Mono&display=swap");
+* {
+  margin: 0;
+  box-sizing: 0;
+  padding: 0;
+}
+#navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#navbar {
+  font-family: "Roboto Mono", monospace;
+  background-color: rgb(3, 6, 5);
+  padding: 13px 14px;
+}
+
+#navbar li {
+  list-style: none;
+}
+
+#navbar li a {
+    font-weight: bold;
+  text-decoration: none;
+  color: white;
+  padding: 11px 29px;
+}
+#navbar li a:hover{
+   color:grey;
+}
+
+#introSection {
+    padding-bottom: 40px;
+  font-family: "Noto Sans Mono", monospace;
+  font-size: 30px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: center / contain no-repeat url("/static/bg.jpg");
+  height: 300px;
+  background-color: black;
+}
+#introSection div.small{
+    font-size: 25px;padding: 5px;
+}
+
+#sponsorsSection {
+    font-family: "Noto Sans Mono", monospace;
+  height: 300px;
+  background-color: azure;
+}
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 15px;
+}
+
+#footer {
+  height: 100px;
+  background-color: burlywood;
+}

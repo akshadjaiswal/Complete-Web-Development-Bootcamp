@@ -1,15 +1,24 @@
 doctype html
 html
-  head
-    style
-      include ../static/style.css
-  body
-    nav#navbar
-     ul
-        li Home
-        li About
-        li Contact Us
-        li Services
-        li Class Info
-    script
-      include ../static/index.js
+    head
+        style
+            include ../static/style.css
+    body
+        nav#navbar
+            ul
+                li #[a(href="/") Home]
+                li #[a(href="/") About]
+                li #[a(href="/") Contact Us]
+                li #[a(href="/") Services]
+                li #[a(href="/") Class Info]
+        section#introSection
+            div Welcome to Akshita's Dance Academy 
+            div.small Live Learn Dance 
+
+        section#sponsorsSection
+            h2 Our Sponsors 
+
+        footer#footer 
+            |Our footer here 
+        script
+            include ../static/index.js
