@@ -5,17 +5,17 @@
   box-sizing: 0;
   padding: 0;
 }
-#logo{
-    display: flex;
-    color: black;
-    align-items: center;
-    margin: 0 14px;
-    font-size: 30px;
-    margin-right:50px ;
+#logo {
+  display: flex;
+  color: black;
+  align-items: center;
+  margin: 0 14px;
+  font-size: 30px;
+  margin-right: 50px;
 }
-#logo img{
-    height: 42px;
-    /* filter: invert(1); */
+#logo img {
+  height: 42px;
+  /* filter: invert(1); */
 }
 #navbar ul {
   display: flex;
@@ -66,14 +66,25 @@
 #sponsorsSection {
   font-family: "Noto Sans Mono", monospace;
   height: 300px;
-  background-color: azure;
+  background-color: #000;
 }
 #sponsorsSection h2 {
   text-align: center;
   padding-top: 5px;
+  color: white;
+}
+#sponsors {
+  height: 200px;
+  max-width: 1000px;
+  margin: 25px auto;
+}
+.spImage {
+  height: 80%;
+  margin: 20px;
 }
 #missionSection {
   font-family: "Noto Sans Mono", monospace;
+  width: 67%;
   width: 67%;
   height: 330px;
   margin: auto;
@@ -84,27 +95,26 @@
 }
 .card h3 {
   text-align: center;
-  margin-top: 12px;
-  font-size: Arial , Helvetica, sans-serif ;
+  margin-top: 15px 12px;
+  font-size: Arial, Helvetica, sans-serif;
 }
 .card-box {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.card-img{
-    height: 130px;
-    padding: 20px 10px;
+.card-img {
+  height: 130px;
+  padding: 20px 10px;
 }
-.card-img img{
-    height: inherit;
+.card-img img {
+  height: inherit;
 }
-.card-content{
-    padding: o 10px;
+.card-content {
+  padding: o 10px;
 }
-.card-content p{
-    font-size: l5px;
+.card-content p {
+  font-size: l5px;
 }
 .card {
   display: inline-block;
@@ -116,6 +126,11 @@
 }
 
 #footer {
-  height: 100px;
-  background-color: burlywood;
+  font-family: "Roboto Mono", monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: white;
+  font-size: 20px;
 }
