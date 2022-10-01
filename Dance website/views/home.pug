@@ -1,0 +1,49 @@
+extends base.pug  
+
+block scripts
+    script(src='/static/index.js')
+
+block style 
+    style    
+        include ../static/style.css
+
+block content 
+
+
+    section#introSection
+        div Welcome to Akshita's Dance Academy 
+        div.small Live Learn Dance 
+
+    section#missionSection
+        h2 Our Missions  
+        div.card
+            h3  Dance Perfection.
+            div.card-box 
+                div.card-img 
+                    img(src="/static/images/1.png")
+                div.card-content
+                    p This is the best dance academy of the amravati
+
+        div.card
+            h3  Dance the way you like.
+            div.card-box 
+                div.card-img 
+                    img(src="/static/images/2.png")
+                div.card-content
+                    p This is the best dance academy of the amravati
+
+        div.card
+            h3  Expert teaching.
+            div.card-box 
+                div.card-img 
+                    img(src="/static/images/3.png") 
+                div.card-content
+                    p This is the best dance academy of the amravati
+
+    section#sponsorsSection
+        h2 Our Sponsors 
+        div#sponsors
+            img(src="/static/images/logo1.png", alt="spImage",class="spImage")
+            img(src="/static/images/logo2.png", alt="spImage",class="spImage")
+            img(src="/static/images/logo3.png", alt="spImage",class="spImage")
+            img(src="/static/images/remo.jpg", alt="spImage",class="spImage")
