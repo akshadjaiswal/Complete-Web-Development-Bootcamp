@@ -10,3 +10,4 @@
 * Javascript
 * NodeJs
 * Express JS
+* Pug
