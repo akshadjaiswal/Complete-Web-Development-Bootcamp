@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+.myInput{
+    width: 300px;
+    padding: 9px;
+    margin: 8px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
