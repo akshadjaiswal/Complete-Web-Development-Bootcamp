@@ -1,0 +1,5 @@
+// Searching for data in MongoDb Data in MongoDb
+use akshadkart
+
+//This query will find the data with rating 4.5
+ db.items.find({rating:4.5})
