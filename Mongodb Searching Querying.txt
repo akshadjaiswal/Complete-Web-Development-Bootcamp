@@ -1,5 +1,25 @@
 // Searching for data in MongoDb Data in MongoDb
 use akshadkart
 
-//This query will find the data with rating 4.5
+//This query will return  the object with rating 4.5
  db.items.find({rating:4.5})
+
+//This query will return  the object with rating greater than equal to  4.5
+ db.items.find({rating:{$gte:4.6}})
+
+ //This query will return  the object with rating greater  4.5
+ db.items.find({rating:{$gt:4.6}})
+
+ //And operator using comma ,
+ db.items.find({rating:{$gt:3.5},price:{$gt:40000}})
+
+// lesser than using lt
+ db.items.find({rating:{$gt:3.5},price:{$lt:20000}})
+
+ //or query
+ db.items.find({
+    $or:[{rating:{$lt:4.7}},{price:{$gt:4000}}]
+    })
+
+// This query will return on the rating value of object greater than 4.6
+    db.items.find({rating:{$gt:4.6}},{rating:1})
