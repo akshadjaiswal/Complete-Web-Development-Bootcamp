@@ -1,0 +1,12 @@
+// show dbs
+//use akshadkart
+//show collections
+
+db.items.find({price:42000})
+
+// query deleting items from the mongo database
+db.items.deleteOne({price:42000}) 
+//deleteOne will delete the matching document entry and will delete the first entry in case of multi document match
+
+// query for deleting all items with price 16000 
+db.items.deleteMany({price:16000})
