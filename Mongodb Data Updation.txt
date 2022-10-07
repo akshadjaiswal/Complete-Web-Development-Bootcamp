@@ -1,0 +1,12 @@
+ // show dbs
+//use akshadkart
+//show collections
+ 
+ //Query for update a single document
+ db.item.find()
+ db.items.updateOne({name:"Redme 10 pro max"},{$set:{price:1500}})
+ db.item.find()
+
+ //Query for updating all matching documents
+ db.items.updateMany({name:"Redme 10 pro max"},{$set:{price:1500 , rating:2}})
+ 
