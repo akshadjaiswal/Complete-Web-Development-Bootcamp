@@ -1,14 +1,14 @@
 # Complete-Web-Development-Bootcamp
-## In the journey of becoming a full stack developer learning too many technologies.Started from HTML CSS and Javascript.
-* Here you can see all my code or topics i learned.
-* Pushing daily content here.
-* Stay tuned.
+## In the journey of becoming a full stack dev. I am learning few  technologies.Started from  basics.
+* Here you can see all my code or topics i am learning.
+* Updating daily learning content here.
+
 
 ## Languages i am learning-
-* HTML
-* CSS
-* Javascript
-* NodeJs
-* Express JS
-* Pug
-* Mongodb
+* HTML.
+* CSS.
+* Javascript.
+* NodeJs.
+* Express JS.
+* Pug.
+* Mongodb.
