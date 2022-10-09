@@ -3,11 +3,11 @@
 //show collections
  
 //Query for updating a single document
- db.item.find() //-this to show allm items from the database
- db.items.updateOne({name:"Redme 10 pro max"},{$set:{price:1500}})
- db.item.find()
+  db.item.find() //-this to show allm items from the database
+  db.items.updateOne({name:"Redme 10 pro max"},{$set:{price:1500}})
+  db.item.find()
 
 //Query for updating all matching documents
- db.items.updateMany({name:"Redme 10 pro max"},{$set:{price:1500 , rating:2}})
+  db.items.updateMany({name:"Redme 10 pro max"},{$set:{price:1500 , rating:2}})
  
  
