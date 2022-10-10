@@ -10,7 +10,14 @@ const kittySchema = new mongoose.Schema({
   name: String
 });
 
+kittySchema.methods.speak = function speak() {
+  const greeting =  "My name name is " + this.name;
+  console.log(greeting);
+};
+
+
 const Kitten = mongoose.model('Kitten', kittySchema);
 
 const akshadKitty = new Kitten({ name: 'akshadKitty' });
-console.log(akshadKitty.name); 
+console.log(akshadKitty.name);
+akshadKitty.speak(); 
