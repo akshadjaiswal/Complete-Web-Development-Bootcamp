@@ -4,7 +4,8 @@ main().catch((err) => console.log(err));
 
 async function main() {
   await mongoose.connect("mongodb://localhost:27017/akshadkart");
-  //console.log("we are connected"); //printing for checking that we are connected or not.
+  //printing for checking that we are connected or not.
+  //console.log("we are connected"); 
 }
 
 const kittySchema = new mongoose.Schema({
@@ -12,7 +13,7 @@ const kittySchema = new mongoose.Schema({
 });
 
 kittySchema.methods.speak = function speak() {
-  const greeting = "My name name is " + this.name;
+  const greeting = "My name name is  " + this.name;
   console.log(greeting);
 };
 
