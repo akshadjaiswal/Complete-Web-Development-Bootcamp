@@ -124,12 +124,15 @@
 .card-img img {
   height: inherit;
 }
+
 .card-content {
   padding: o 10px;
 }
+
 .card-content p {
   font-size: l5px;
 }
+
 .card {
   display: inline-block;
   border: 2px solid black;
