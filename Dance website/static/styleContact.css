@@ -21,7 +21,7 @@ h1 {
 .container h1 {
   font-family: "Roboto Mono", monospace;
   font-size: 34px;
-  /* margin-top: 12px; */
+  
 }
 .myInput {
   width: 300px;
