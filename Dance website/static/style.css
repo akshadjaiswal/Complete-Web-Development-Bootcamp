@@ -5,6 +5,7 @@
   box-sizing: 0;
   padding: 0;
 }
+
 #logo {
   display: flex;
   color: black;
@@ -13,10 +14,12 @@
   font-size: 30px;
   margin-right: 50px;
 }
+
 #logo img {
   height: 42px;
   /* filter: invert(1); */
 }
+
 #navbar ul {
   display: flex;
   flex-direction: row;
@@ -41,6 +44,7 @@
   padding: 11px 29px;
   font-size: 25px;
 }
+
 #navbar li a:hover {
   color: grey;
 }
@@ -58,6 +62,7 @@
   height: 300px;
   background-color: black;
 }
+
 #introSection div.small {
   font-size: 40px;
   padding: 5px;
@@ -68,20 +73,24 @@
   height: 300px;
   background-color: #000;
 }
+
 #sponsorsSection h2 {
   text-align: center;
   padding-top: 5px;
   color: white;
 }
+
 #sponsors {
   height: 200px;
   max-width: 1000px;
   margin: 25px auto;
 }
+
 .spImage {
   height: 80%;
   margin: 20px;
 }
+
 #missionSection {
   font-family: "Noto Sans Mono", monospace;
   width: 67%;
@@ -89,24 +98,29 @@
   height: 330px;
   margin: auto;
 }
+
 #missionSection h2 {
   text-align: center;
   padding-top: 15px;
 }
+
 .card h3 {
   text-align: center;
   margin-top: 15px 12px;
   font-size: Arial, Helvetica, sans-serif;
 }
+
 .card-box {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+
 .card-img {
   height: 130px;
   padding: 20px 10px;
 }
+
 .card-img img {
   height: inherit;
 }
