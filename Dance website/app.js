@@ -45,8 +45,6 @@ app.post("/contact", (req, res) => {
     }).catch(() => {
       res.status(400).send("item was not sent to the database");
     });
-
-  // res.status(200).render("contact.pug");
 })
 
 // START THE SERVER
