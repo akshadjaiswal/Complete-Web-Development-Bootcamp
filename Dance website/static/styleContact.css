@@ -23,6 +23,7 @@ h1 {
   font-size: 34px;
   
 }
+
 .myInput {
   width: 300px;
   padding: 9px;
@@ -40,6 +41,7 @@ h1 {
   align-items: center;
   width: 100%;
 }
+
 .btn {
   padding: 8px 12px;
   font-size: 15px;
