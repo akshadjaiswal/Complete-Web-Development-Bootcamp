@@ -4,7 +4,7 @@
 * Updating daily learning content here.
 
 
-## Languages i am learning-
+## Tech learned-
 * HTML5.
 * CSS3.
 * Javascript.
