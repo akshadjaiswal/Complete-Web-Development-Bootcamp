@@ -1,14 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Math Object</title>
-  </head>
-  <body>
-    <div class="container"><h1>Math Object</h1></div>
-    <script>
+// <!DOCTYPE html>
+// <html lang="en">
+//   <head>
+//     <meta charset="UTF-8" />
+//     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+//     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+//     <title>Math Object</title>
+//   </head>
+//   <body>
+//     <div class="container"><h1>Math Object</h1></div>
+//     <script>
       //printing the math object
       let m = Math;
       console.log(m);
@@ -70,6 +70,6 @@
       let r50_60 = x + (y - x) * Math.random();
       console.log("The random is ", r);
       console.log("The random is ", r50_60);
-    </script>
-  </body>
-</html>
+//     </script>
+//   </body>
+// </html>
