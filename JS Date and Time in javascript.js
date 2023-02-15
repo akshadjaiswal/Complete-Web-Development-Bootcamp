@@ -1,27 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Date and time in java script</title>
-  </head>
-  <style>
-    .container {
-      font-size: 60px;
-      background-color: cyan;
-      border: 2px solid gray;
-      padding: 60px;
-      margin: auto;
-      text-align: center;
-    }
-    #time {
-      font-weight: bolder;
-    }
-  </style>
-  <body>
-    <div class="container">Cureent time:- <span id="time"> </span></div>
-    <script>
+// <!DOCTYPE html>
+// <html lang="en">
+//   <head>
+//     <meta charset="UTF-8" />
+//     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+//     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+//     <title>Date and time in java script</title>
+//   </head>
+//   <style>
+//     .container {
+//       font-size: 60px;
+//       background-color: cyan;
+//       border: 2px solid gray;
+//       padding: 60px;
+//       margin: auto;
+//       text-align: center;
+//     }
+//     #time {
+//       font-weight: bolder;
+//     }
+//   </style>
+//   <body>
+//     <div class="container">Cureent time:- <span id="time"> </span></div>
+//     <script>
       console.log("this is date and time tutorial");
       // let now = new Date();
       // console.log(now);
@@ -60,6 +60,6 @@
       function updateTime() {
         time.innerHTML = new Date();
       }
-    </script>
-  </body>
-</html>
+//     </script>
+//   </body>
+// </html>
