@@ -7,6 +7,8 @@
   db.items.updateOne({name:"Redme 10 pro max"},{$set:{price:1500}})
   db.item.find()
 
+  db.items.updateOne({name:"Ipone X"},{$set:{price:155455}})
+
 //Query for updating all matching documents
   db.items.updateMany({name:"Redme 10 pro max"},{$set:{price:1500 , rating:2}})
  
