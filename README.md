@@ -7,7 +7,7 @@
 ## Tech learned-
 * HTML5.
 * CSS3.
-* Javascript.
+* JavaScript.
 * NodeJs.
 * Express JS.
 * Pug.
