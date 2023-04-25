@@ -5,7 +5,7 @@
 * Updating daily learning content here.
 
 
-## Tech learned:-
+## Tech learned :-
 * HTML5.
 * CSS3.
 * JavaScript.
