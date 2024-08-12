@@ -4,7 +4,7 @@
 - Here you can see all my code or topics i learned.
 
 
-## Tech learned :-
+## Topics Covered:-
 * HTML5.
 * CSS3.
 * JavaScript.
